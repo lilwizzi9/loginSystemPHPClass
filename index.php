@@ -1,18 +1,8 @@
 <?php
 
 
-//fUNCTIONS
-function a($txt){
-
-    print("<h1>$txt</h1>");
-}
-
-a("Hello");
-a("Hi");
-a("Bye");
-a("Bello");
-//crud
-
+include_once(__DIR__."/views/header.html");
+include_once(__DIR__."/views/login.html");
+include_once(__DIR__."/views/signup.html");
 
 ?>
-
