@@ -1,5 +1,7 @@
 <?php
-
+include_once(__DIR__."/views/header.html");
+include_once(__DIR__."/views/navbar.html");
+include_once(__DIR__."/views/table.php");
 // Connect To DB
 // mysql connection object
 $_host = "127.0.0.1";

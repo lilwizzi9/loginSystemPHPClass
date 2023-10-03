@@ -1,0 +1,27 @@
+
+
+table{
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.17);
+}
+thead{
+    background-color: rgb(69, 69, 69) !important;
+    color:white;
+}
+th{
+    padding: 10px;
+}
+tbody{
+    text-align: center;
+}
+tbody tr{
+    background-color: rgb(225, 225, 225);
+    transition: background-color .5s;
+}
+tbody tr:hover{
+    background-color: rgb(255, 255, 255);
+}
