@@ -15,9 +15,9 @@ sublitBTN.onclick = ()=>{
     //alert("Username: "+ userName + "\nPassword: "+password);
     request.open("POST", "Api.php");
     //request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    request.send(JSON.stringify({
+    request.send( JSON.stringify( {
         "username":userName,
         "password":password
-    }));
+    } ) );
 }
 
